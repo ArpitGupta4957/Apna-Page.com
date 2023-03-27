@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url(pics/logo-white.png);
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-size: top center;
+    background-size: 30%;
+    background-position: center;
+}
+header{
+    background-color: black;
+}
+h2{
+    text-align: center;
+    margin: 80px;
+    font-size: xx-large;
+    color:navy;
+    font-family: 'Pacifico', cursive;
+    border: 1px yellow;
+    
+}
+
+nav{
+    border: 1px solid darkgray;
+    background-color:dimgray;
+    font-size: xxx-large;
+    padding: 20px;
+    position:sticky;
+    top: 1px;
+    display: flex;
+
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-style: oblique;
+    padding: auto;
+    color: white;
+    margin-left: 230px;
+    text-align: center;
+    font-size: xx-large;
+}
+nav a:hover{
+    
+    background-color: white;
+}
+section{
+    text-align: center;
+}
+section h2 span{
+    background: linear-gradient(to right, #f5d837, #bbb812);
+    padding: 10px 55px;
+    border-radius: 20px;
+}
+h3{
+    font-size: xxx-large;
+}
+.profile_name{
+    font-size: 2em;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 20px 0px 20px;
+}
+h4{
+    font-size: xx-large;
+    padding: 5px 70px 0px 70px;
+}
+h5{
+    font-size: x-large;
+    padding: 15px 300px 0px 300px;
+}
+footer{
+    text-align: center;
+    display: flex;
+    border: 1px solid black;
+    background-color: black;
+    padding-left:700px ;
+    
+}
+footer a{
+    color: darkgray;
+    padding: 10px;
+    font-size: x-large;
+    
+}
+footer a:hover{
+    color:white;
+}
+img{
+    border: 0px solid black;
+}
+.profile{
+    border-radius: 50%;
+}
+.youtube-handle{
+    color: red;
+}
+.LinkedIn-handle{
+    color:dodgerblue;
+}
+.Insta-handle{
+    color: deeppink;
+}
+.sm-handle a{
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px black;
+    background-color: rgb(125, 125, 125 , 25%);
+    padding: 10px 15px ;
+    border-radius: 30px;
+    margin: 5px 10px;
+}
+a:hover{
+    color: blue;
+}
+.pipe{
+    font-size: x-large;
+}
+
+@media screen and (max-width: 700px) {
+    nav{
+        flex-direction: column;
+    }
+}
